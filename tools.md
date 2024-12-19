@@ -1,13 +1,13 @@
-# SampleController
+### Librerias Usadas en este Proyecto
 
-Es un controlador encargado de controlar el comportamiento de la interfaz de usuario.
+java.util.Random -> Esta biblioteca es utilizada en el proyecto para generar números aleatorios.
 
-## Propiedades
+javafx.fxml.FXML -> Es una biblioteca de JavaFX que nos permitira enlazar el archivo FXML con la lógica del proyecto.
 
-- 'paneColor': Un contenedor Pane que se cambia su color de fondo y se rota.
-- 'btnCambiaColor': Un boton que, al ser presionado, cambia los colores y rota los  dos Pane.
-- 'paneGrande': Un contenedor Pane que tambien cambia su color de fondo y se rota.
+javafx.scene.control.Alert -> Esta biblioteca es utilizada para mostrar alertas en la interfaz gráfica.
 
-### btnCambiaColor()
+javafx.scene.control.Button -> Biblioteca usada para controlar y gestionar los botones en la interfaz gráfica.
 
-Este método se llama cuando se presiona el botón 'btnCambiaColor'. Genera un número aleatorio entre 1 y 4, ambos incluidos, y cambia los colores de los dos Pane basándose en este número y también rota los Pane.
+javafx.scene.layout.Pane -> Utilizada para gestionar los contenedores de diseño en JavaFX.
+
+javafx.scene.transform.Rotate -> Biblioteca usada para aplicar rotación a los elementos de la interfaz gráfica.
